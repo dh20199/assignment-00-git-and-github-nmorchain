@@ -72,9 +72,9 @@ describe('Git Checks', function() {
   });
 
   it('Git should be configured with username and email information', function() {
-    expect(name, 'nmorchain').not.to.be.undefined;
+    expect(name, 'Nicholas Morchain').not.to.be.undefined;
     expect(email, 'nmorchain@hotmail.com').not.to.be.undefined;
-    expect(githubid, '55154159').not.to.be.undefined;
+    expect(githubid, 'nmorchain').not.to.be.undefined;
   });
 
   it('All changes in checked-in files should be committed to Git (OK for this to fail while you are still working)', function() {

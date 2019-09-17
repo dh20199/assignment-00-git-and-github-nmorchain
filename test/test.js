@@ -72,9 +72,9 @@ describe('Git Checks', function() {
   });
 
   it('Git should be configured with username and email information', function() {
-    expect(name, 'Nicholas').not.to.be.undefined;
-    expect(email, 'nmorchain@hotmail.com').not.to.be.undefined;
-    expect(githubid, 'nmorchain').not.to.be.undefined;
+    expect(name, 'your Git user name has not been set').not.to.be.undefined;
+    expect(email, 'your Git email has not been set').not.to.be.undefined;
+    expect(githubid, 'your Github user name has not been set').not.to.be.undefined;
   });
 
   it('All changes in checked-in files should be committed to Git (OK for this to fail while you are still working)', function() {

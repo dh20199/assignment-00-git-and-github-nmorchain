@@ -69,7 +69,7 @@ describe('Git Checks', function() {
 
   it('You should have made at least ' + minCommits + ' git commits ', function() {
     expect(studentCommits).to.be.at.least(minCommits);
-  });
+  });nmorchain
 
   it('Git should be configured with username and email information', function() {
     expect(name, 'Nicholas Morchain').not.to.be.undefined;

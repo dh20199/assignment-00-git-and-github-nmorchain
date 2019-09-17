@@ -1,0 +1,14 @@
+{
+  "firstName": "Nicholas",
+  "lastName": "Morchain",
+  "nickName": "MorChainz",
+  "privateName": false,
+  "picture": "images/nmorchain.jpg",
+  "privatePicture": false,
+  "email": "nicholas.morchain@mail.utoronto.ca",
+  "privateEmail": false,
+  "github": "nmorchain",
+  "privateGithub": false,
+  "superpower" : "able to eat the spicest item on the menu",
+  "academicinterests": "Philosophy of Science"
+}
